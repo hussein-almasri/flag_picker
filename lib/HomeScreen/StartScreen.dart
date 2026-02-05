@@ -23,7 +23,7 @@ class StartScreen extends StatelessWidget {
       ),
 
 
-      backgroundColor: const Color(0xFF0D47A1), // أزرق أنيق
+      backgroundColor: const Color(0xFF0D47A1),   
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(24.0),

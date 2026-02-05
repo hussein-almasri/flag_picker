@@ -21,24 +21,7 @@ class QuizScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context){
     return Scaffold(
-         appBar: AppBar(
-        backgroundColor:  Colors.white,
-        leading: Image(image: 
-        AssetImage("lib/assets/logo/logo.png"),
-        width: 12,
-        height: 12,
-        ),
-        title: Text("Flag Picker ", 
-        style: TextStyle(
-          fontSize: 18,
-          color: const Color.fromARGB(255, 0, 0, 0),
-          fontWeight: FontWeight.normal
-        )
-        ,),
-      ),
-
-
-        backgroundColor: const Color.fromARGB(255, 67, 177, 233),
+      backgroundColor: const Color(0xFF0D47A1), 
       body: SafeArea(
         child: Center(
           child: Column(
