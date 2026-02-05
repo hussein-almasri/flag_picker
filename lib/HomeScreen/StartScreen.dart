@@ -9,7 +9,7 @@ class StartScreen extends StatelessWidget {
       appBar: AppBar(
         backgroundColor:  Colors.white,
         leading: Image(image: 
-        AssetImage("lib/assets/logo.png"),
+        AssetImage("lib/assets/logo/logo.png"),
         width: 12,
         height: 12,
         ),
