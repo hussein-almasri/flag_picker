@@ -15,6 +15,7 @@ class StartScreen extends StatelessWidget {
             children: [
 
               // LOGO
+              //
               Container(
                 height: 140,
                 width: 140,
