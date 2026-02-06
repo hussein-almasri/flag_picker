@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
+// ignore: must_be_immutable
 class QuizScreen extends StatelessWidget {
- QuizScreen();
+ QuizScreen({super.key});
 
   List<String> countries = [
     "Estonia",
