@@ -27,7 +27,7 @@ class QuizScreen extends StatelessWidget {
         child: Center(
           child: Column(
             children: [
-              SizedBox(height: 16),
+              SizedBox(height: 24),
               Text(
                 "Guess The Flag?",
                 style: TextStyle(
